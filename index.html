@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"> 
+    <title>Maquetacion</title>
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i,800&display=swap" rel="stylesheet">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            display: flex;
+        }
+        section{
+            width: 50%;
+            height: 130vh;
+        }
+        img{
+            width: 100%;
+        }
+        h1{
+            font-family: 'Big Shoulders Text';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            font-size: 4vw;
+        }
+        body{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+        }
+        header section:first-child{
+            position: relative;
+        }
+        header section:first-child img{
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+        header section:last-child{
+            position: relative;
+        }
+        header section:last-child img{
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+        main{
+            width: 600px;
+            margin: auto;
+            font-family: 
+        }
+        main>p{
+            color: pink;
+            padding: 4em 0;
+            column-count: 2;
+            column-gap: 30px;
+            column-rule: 1px solid pink;
+            text-align: justify;
+            hyphens: auto;
+            line-height: 1.4em;
+        }
+        article{
+            padding: 0 4em;
+            color: grey;
+        }
+        article p{
+            margin: 0 0 1.2em 0;
+            text-align: justify;
+            hyphens: auto;
+        }
+        article>p:first-child::first-letter{
+            color: pink;
+            font-size: 8em;
+            float: left;
+            line-height: 6rem;
+            padding-left: 0.5rem;
+            padding-right: 1rem;
+            padding-bottom: 0.5rem;
+            padding-top: 0.5rem;
+        }
+        .cercle{
+            background: pink;
+            border-radius: 50%;
+            shape-outside: circle(50%) border-box;
+            float: left;
+            max-width: 20em;
+            margin-left: -4em;
+            shape-margin: 0.4em;
+        }
+        .cercle img{
+            mix-blend-mode: hard-light;
+            border-radius: 50%;
+            shape-outside: circle(50%) border-box;
+        }
+        .hexagon{
+            background: pink;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%) border-box;
+            float: right;
+            max-width: 25em;
+            margin-right: -8em;
+            shape-outside: 0.5em;
+        }
+        .hexagon img{
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%) border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section>
+            <img src="img/Final_Barney_by_Luba_editada.jpg">
+            <h1>Barney Bubbles by<br>Luba Lukova</h1>
+        </section>
+        <section>
+           <img src="img/Final_Luba_by_Barney_Editada.jpg">
+           <h1>Luba Lukova by<br>Barney Bubbles</h1>
+        </section>
+    </header>
+    <main>
+        <p>Breafing: Al alumno se le asignan dos diseñadores como referentes de los cuales tiene que analizar su obra y trayectoria profesional. Se escogerá una pieza de cada uno para realizar la obra escogida con las características del diseñador contrario y viceversa.Contrabreafing: Analizaremos la obra de cada uno profundizando en su trayectoria profesional, análisis de su obra, los recursos que utiliza, será reflejado en un panel conceptual por autor. Se escogerá una obra de cada diseñador aunque se bocetará inicialmente varias para ver con cual estamos más cómodos, y se procederá a una fase de prueba error mediante el bocetaje. Una vez esté decidido el resultado de la obra se generará una obra final a ordenador, estas serán impresas en un 500x700mm.</p>
+        <article>
+            <p>Luba Lukova  (1960 Plovdiv, Bulgaria) es una diseñadora búlgara nacida en los años 60 asentada en Nueva York. Como tema principal de su obra trabaja cuestiones de tipo social, genera cartelería que como norma general se centra en los Derechos Humanos. Gana su fama por su estilo de síntesis gráfica y cromática, su forma de tratar las formas generadas de la naturaleza y la monocromaticidad.Comenzó su carrera en Bulgaria realizando cartelería teatral hasta conquistar Europa y Estados Unidos, consiguiendo así números premios como Premio Savignac International Poster Salon en París, Golden Pencil Award NY o la Excelencia Icograda. En 1999 publica su primer libro Woman of the Bible, una muestra de mujeres que aparecen en la Biblia en pasajes que la Iglesia la mayoría de veces elimina en las liturgias. En 2008 presenta una serie de carteles para la campaña Social Justice, captura muchos de los problemas sociales de forma honesta y sencilla. En 2009 uno de sus posters de Social Justice forma parte del acto inaugural del presidente Barack Obama y en ese mismo año publica un libro titulado Social Justice que recoge las mejores obras. En 2011 publica su último libro hasta la fecha, Graphics Guts: Political posters, se tratan carteles con temas políticos del momento. </p>
+            <div class="cercle">
+                <img src="img/hawklords.jpg">
+            </div>
+            <p>Análisis Brainwashing<br>Se presenta en formato rectangular vertical, los elementos principales se sitúan en el eje central vertical de la composición apareciendo en la base de la composición apareciendo en la base de la composición una franja fucsia con información textual. El elemento principal es una cabeza humana con facciones alegres, en la parte de la sien se ha realizado un corte y podemos ver cómo es lavado por una tabla para lavar que lleva inscrito la palabra Media. En la franja inferior aparece el título de la obra Brainwashing y al lado derecho de la misma el logo de la campaña Social Justice 2008. Si comentamos su carácter connotativo podemos descifrar sus diferentes figuras retóricas como la metáfora y la personificación. Esta última se ve claramente reflejada en el limpiador, representa los medios actuales y la propiedad que tienen de lavarnos el cerebro. El rostro mantiene esa cara de felicidad, la inocencia no le deja ver que las redes nos lavan el cerebro.</p>
+            <div class="hexagon">
+                <img src="img/brainwashing_luba.jpg">
+            </div>
+            <p>Barney Bubbles Corney Fuchle (1942-1983) conocido como el hombre que diseñó los 70’s es un diseñador gráfico y director de vídeos musicales. En 1963 comenzó su carrera laboral trabajando como diseñador para Michael Tucker + Asociados haciendo campañas importantes como tipografías independientes para la película patrocinada por Pirelli La Liebre y la tortura. En 1965 empezó a trabajar para The Conran Group dejando diseños como el de la famosa sidra Strongbow. En 1967 dejó atrás su nombre de nacimiento Corney Fuchle y lo cambió por Barney Bubbles como inspiración a una puesta en escena durante un concierto. Rediseñó la revista Motor Racing. En 1969 creó en Londres un estudio de arte gráfico llamado Teenburguer Designs adentrándose en el mundo del diseño para productos musicales con el LP Blissful Company de Quintessence. En los inicios de la década de los 70 cerró el estudio y se pone a trabajar de la mano de Friends, mientras, se asocia con Hawkwind para realizarles álbumes como Search of Space o Doremi Fasol Latido. A partir de 1973 comenzó a trabajar de forma anónima cambiando pseudonimos mientras diseñaba álbumes para Sutherland Brothers, Kevin Coyne, Edgar Broughton Band o Chilli Willi y Red Hot Peppers.</p>
+            <img src="img/autorretrato_barney.png">
+            <p>Análisis Autorretrato<br>Visualmente en esta obra de Barney Bubbles vemos una representación abstracta de su rostro. Dos círculos representados de formas distintas son lo primero que vemos y simulan los ojos, a     lo algo de la composición encontramos distintas formas irregular que en conjunto se entienden como un        rostro. Barney refleja su locura, su vida caótica y ecléctica. Es su estilo y decide en una única obra        plasmar su forma de trabajar sin ningún condicionamiento en cuanto a cliente o público, simplemente se        deja llevar por su locura y genera una sátira de si mismo.</p>
+        </article>
+    </main>
+</body>
+</html>
